@@ -1,0 +1,23 @@
+
+:root { 
+    font-size: 62.5%;
+    --std: all .3s ease-in; /*-- another variable --*/
+}
+body { 
+    width: 100 vw;
+    font-size: 1.8rem;
+    margin: 0 auto 1rem auto; /*-- top, right, bottom,left --*/
+    padding: 5px 10px; /*-- vertical, horizontal --*/
+}
+/*-- flex container --*/
+nav.main-nav {
+    height: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /*-- main-axis -*/
+    align-items: center; /*-- cross-axis --*/
+}
+/*-- flex item --*/
+a.nav-item {
+    
+}
